@@ -1,3 +1,5 @@
+package Assisment1;
+
 import java.util.Scanner;
 
 class MatrixFunctions {
