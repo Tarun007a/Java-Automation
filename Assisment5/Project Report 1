@@ -1,0 +1,103 @@
+                                            PROJECT REPORT – 1
+                        Customer Relationship Management System Using Agile Methodology
+1. Introduction
+
+The Customer Relationship Management (CRM) System is a software application designed to manage interactions between an organization and its customers effectively. It helps businesses track customer information, manage leads, handle sales activities, and improve customer satisfaction.
+
+This project is developed using Agile Methodology, which supports continuous improvement, flexibility, and incremental delivery of features to meet changing business requirements.
+
+2. Problem Statement
+
+Many organizations manage customer data manually or using disconnected systems such as spreadsheets. This leads to data inconsistency, poor customer follow-up, loss of potential leads, and inefficient communication. There is a need for a centralized and automated CRM system to manage customer relationships efficiently and securely.
+
+3. Objectives of the Project
+
+To centralize customer data management
+To improve customer interaction and follow-up
+To automate sales and lead tracking
+To reduce manual work and data duplication
+To enhance customer satisfaction and retention
+
+4. Scope of the Project
+
+The CRM system supports customer registration, lead management, contact tracking, sales status monitoring, and customer interaction history. Administrators can manage users, view reports, and analyze customer data to support business decisions.
+
+5. Agile Methodology
+
+Agile methodology emphasizes iterative development, customer feedback, and adaptability. The CRM system is developed in multiple sprints, with each sprint delivering a functional module of the system.
+
+Agile Practices Followed
+
+Incremental feature development
+Continuous integration and testing
+Regular feedback from stakeholders
+Flexible and adaptive planning
+
+6. Agile Development Process
+
+Sprint 1
+Requirement gathering
+User authentication and role management
+
+Sprint 2
+Customer registration module
+Customer profile management
+
+Sprint 3
+Lead management
+Sales tracking module
+
+Sprint 4
+Reports and analytics
+System testing and optimization
+
+7. Functional Requirements
+
+User login and authentication
+Customer data management
+Lead creation and tracking
+Sales status monitoring
+Customer interaction history
+
+8. Non-Functional Requirements
+
+Secure access and data protection
+High system availability
+Fast response time
+Scalability to support business growth
+
+9. System Architecture (High-Level)
+
+Presentation Layer (HTML, CSS, JavaScript)
+Business Logic Layer (Java, Spring Boot)
+Database Layer (MySQL)
+
+10. Technology Stack
+
+Java
+Spring Boot
+MySQL
+HTML, CSS, JavaScript
+
+11. Advantages of the System
+
+Centralized customer information
+Improved sales and customer engagement
+Reduced manual effort
+Better decision-making through reports
+
+12. Limitations
+
+Initial setup requires training
+Limited advanced analytics in the first version
+
+13. Future Enhancements
+
+AI-based customer behavior analysis
+Integration with email and messaging services
+Mobile CRM application
+Advanced reporting and dashboard features
+
+14. Conclusion
+
+The Customer Relationship Management System developed using Agile methodology provides an efficient and structured approach to managing customer interactions. Agile practices ensured timely delivery, flexibility, and continuous improvement, making the system suitable for modern business environments.
