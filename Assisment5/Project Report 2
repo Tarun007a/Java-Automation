@@ -1,0 +1,103 @@
+                                                    PROJECT REPORT – 2
+                                    Travel Booking Platform Using Agile Methodology
+1. Introduction
+
+The Travel Booking Platform is a web-based application designed to help users search, plan, and book travel services such as trips, accommodations, and itineraries online. The platform provides a simple and user-friendly interface that allows customers to manage their travel plans efficiently.
+
+This project is developed using the Agile Methodology, which ensures flexibility, faster development, and continuous improvement through iterative delivery of features.
+
+2. Problem Statement
+
+Traditional travel booking methods involve multiple agents, manual coordination, and lack of transparency in pricing and availability. Customers often face difficulties in comparing options and managing bookings. There is a need for an automated travel booking platform that offers reliable, fast, and centralized booking services.
+
+3. Objectives of the Project
+
+To provide an online travel booking solution
+To simplify trip planning and booking
+To reduce manual intervention and errors
+To offer real-time booking management
+To enhance customer experience
+
+4. Scope of the Project
+
+The platform supports user registration, travel search, booking management, and trip history tracking. Administrators can manage travel packages, monitor bookings, and maintain platform data.
+
+5. Agile Methodology
+
+Agile methodology focuses on iterative development, customer collaboration, and adaptability. The Travel Booking Platform is developed in multiple sprints, with each sprint delivering functional travel-related features.
+
+Agile Practices Followed
+
+Incremental development
+Continuous testing
+Regular feedback from users
+Adaptive planning
+
+6. Agile Development Process
+
+Sprint 1
+Requirement analysis
+User registration and login
+
+Sprint 2
+Travel search module
+Package listing
+
+Sprint 3
+Booking management
+Trip history
+
+Sprint 4
+Admin controls
+System testing and deployment
+
+7. Functional Requirements
+
+User registration and authentication
+Search and view travel packages
+Booking and cancellation management
+View booking history
+Admin management of packages
+
+8. Non-Functional Requirements
+
+Secure data handling
+High system availability
+Fast response time
+Scalability to handle more users
+
+9. System Architecture (High-Level)
+
+User Interface Layer (HTML, CSS, JavaScript)
+Application Layer (Java, Spring Boot)
+Database Layer (MySQL)
+
+10. Technology Stack
+
+Java
+Spring Boot
+MySQL
+HTML, CSS, JavaScript
+
+11. Advantages of the System
+
+Easy and quick travel booking
+Reduced dependency on agents
+Accurate booking records
+Improved customer convenience
+
+12. Limitations
+
+Requires internet connectivity
+Limited payment options in initial version
+
+13. Future Enhancements
+
+Online payment gateway integration
+Mobile application support
+Personalized travel recommendations
+Integration with third-party travel services
+
+14. Conclusion
+
+The Travel Booking Platform developed using Agile methodology provides a reliable and efficient solution for managing travel bookings. Agile practices enabled flexible development, faster delivery, and improved system quality, making the platform suitable for modern travel needs.

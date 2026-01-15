@@ -1,0 +1,103 @@
+                                                            PROJECT REPORT – 5
+                                            Healthcare Management System Using Agile Methodology
+1. Introduction
+
+The Healthcare Management System is a web-based application designed to manage healthcare services digitally. It helps hospitals and clinics maintain patient records, schedule appointments, and manage medical data efficiently, improving overall healthcare service delivery.
+
+This project is developed using the Agile Methodology, which allows continuous improvement, flexibility, and faster delivery of healthcare-related features.
+
+2. Problem Statement
+
+Traditional healthcare systems often rely on paper-based records and manual processes, which can lead to data loss, delays, and errors in patient management. Doctors and staff face difficulties in accessing patient information quickly. There is a need for an automated healthcare system that ensures accurate, secure, and efficient data handling.
+
+3. Objectives of the Project
+
+To automate patient record management
+To improve appointment scheduling
+To reduce paperwork and manual errors
+To ensure secure storage of medical data
+To enhance healthcare service efficiency
+
+4. Scope of the Project
+
+The system supports patient registration, appointment booking, medical record management, and basic reporting. Administrators can manage doctors, patients, and system data, while doctors can view patient history and update medical records.
+
+5. Agile Methodology
+
+Agile methodology focuses on iterative development, continuous feedback, and adaptability. The healthcare system is developed in multiple sprints, with each sprint delivering functional healthcare modules.
+
+Agile Practices Followed
+
+Incremental development
+Continuous testing
+Regular stakeholder feedback
+Adaptive planning
+
+6. Agile Development Process
+
+Sprint 1
+Requirement analysis
+User authentication and role management
+
+Sprint 2
+Patient registration
+Appointment scheduling
+
+Sprint 3
+Medical record management
+Doctor dashboard
+
+Sprint 4
+Admin controls
+System testing and deployment
+
+7. Functional Requirements
+
+User registration and login
+Patient record management
+Appointment booking and management
+Doctor access to patient history
+Admin management of system data
+
+8. Non-Functional Requirements
+
+High data security and privacy
+System reliability and availability
+Fast data retrieval
+Scalability for future expansion
+
+9. System Architecture (High-Level)
+
+Presentation Layer (HTML, CSS, JavaScript)
+Business Logic Layer (Java, Spring Boot)
+Database Layer (MySQL)
+
+10. Technology Stack
+
+Java
+Spring Boot
+MySQL
+HTML, CSS, JavaScript
+
+11. Advantages of the System
+
+Improved patient data management
+Reduced administrative workload
+Faster access to medical records
+Enhanced healthcare service quality
+
+12. Limitations
+
+Requires internet connectivity
+Limited advanced medical analytics in initial version
+
+13. Future Enhancements
+
+Telemedicine integration
+Mobile healthcare application
+Advanced health analytics
+Integration with external medical devices
+
+14. Conclusion
+
+The Healthcare Management System developed using Agile methodology provides a secure and efficient solution for managing healthcare services. Agile practices ensured flexibility, timely delivery, and continuous enhancement, making the system suitable for modern healthcare environments.
