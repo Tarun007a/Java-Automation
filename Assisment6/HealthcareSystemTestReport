@@ -1,0 +1,141 @@
+1) First Test Case
+
+Field | Description
+
+Test Case ID | TC_01
+
+Test Case Title | Verify user login
+
+Module | Authentication
+
+Preconditions | User is registered in the system
+
+Test Steps |
+
+Enter valid username and password
+
+Click Login button
+
+Test Data | User – doctor01
+
+Expected Result | User should be redirected to dashboard
+
+Actual Result | Dashboard displayed successfully
+
+Status | Pass
+
+Remark | Login working correctly
+
+2) Second Test Case
+
+Field | Description
+
+Test Case ID | TC_02
+
+Test Case Title | Verify patient registration
+
+Module | Patient Management
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Add Patient
+
+Enter patient details
+
+Click Save
+
+Test Data | Patient Name – Suresh Kumar
+
+Expected Result | Patient record should be created
+
+Actual Result | Patient registered successfully
+
+Status | Pass
+
+Remark | Patient registration successful
+
+3) Third Test Case
+
+Field | Description
+
+Test Case ID | TC_03
+
+Test Case Title | Verify appointment booking
+
+Module | Appointment
+
+Preconditions | Patient record exists
+
+Test Steps |
+
+Select patient
+
+Choose doctor and time slot
+
+Click Book Appointment
+
+Test Data | Doctor – Dr. Mehta
+
+Expected Result | Appointment should be confirmed
+
+Actual Result | Appointment booked successfully
+
+Status | Pass
+
+Remark | Appointment booking working
+
+4) Fourth Test Case
+
+Field | Description
+
+Test Case ID | TC_04
+
+Test Case Title | Verify invalid appointment time
+
+Module | Appointment
+
+Preconditions | Doctor unavailable at selected time
+
+Test Steps |
+
+Select unavailable time slot
+
+Click Book Appointment
+
+Test Data | Time – 2:00 AM
+
+Expected Result | Error message should be displayed
+
+Actual Result | Appointment error shown
+
+Status | Pass
+
+Remark | Validation working correctly
+
+5) Fifth Test Case
+
+Field | Description
+
+Test Case ID | TC_05
+
+Test Case Title | Verify logout
+
+Module | Logout
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Logout option
+
+Test Data | N/A
+
+Expected Result | User should be logged out
+
+Actual Result | User logged out successfully
+
+Status | Pass
+
+Remark | Logout working properly

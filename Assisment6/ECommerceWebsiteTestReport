@@ -1,0 +1,139 @@
+1) First Test Case
+
+Field | Description
+
+Test Case ID | TC_01
+
+Test Case Title | Verify user login
+
+Module | Authentication
+
+Preconditions | User is registered on the website
+
+Test Steps |
+
+Enter valid email and password
+
+Click Login button
+
+Test Data | User – user01@gmail.com
+
+Expected Result | User should be redirected to homepage
+
+Actual Result | Homepage displayed successfully
+
+Status | Pass
+
+Remark | Login functionality working
+
+2) Second Test Case
+
+Field | Description
+
+Test Case ID | TC_02
+
+Test Case Title | Verify product search
+
+Module | Product Search
+
+Preconditions | User logged in
+
+Test Steps |
+
+Enter product name in search box
+
+Click Search
+
+Test Data | Product – Mobile Phone
+
+Expected Result | Matching products should be displayed
+
+Actual Result | Product list displayed
+
+Status | Pass
+
+Remark | Search working correctly
+
+3) Third Test Case
+
+Field | Description
+
+Test Case ID | TC_03
+
+Test Case Title | Verify add product to cart
+
+Module | Cart
+
+Preconditions | Product available in stock
+
+Test Steps |
+
+Select a product
+
+Click Add to Cart
+
+Test Data | Product ID – P1005
+
+Expected Result | Product should be added to cart
+
+Actual Result | Product added successfully
+
+Status | Pass
+
+Remark | Add to cart working
+
+4) Fourth Test Case
+
+Field | Description
+
+Test Case ID | TC_04
+
+Test Case Title | Verify checkout and payment
+
+Module | Payment
+
+Preconditions | Product present in cart
+
+Test Steps |
+
+Proceed to checkout
+
+Enter delivery details
+
+Complete payment
+
+Test Data | Payment Mode – UPI
+
+Expected Result | Order should be placed successfully
+
+Actual Result | Order placed and confirmation shown
+
+Status | Pass
+
+Remark | Payment and checkout successful
+
+5) Fifth Test Case
+
+Field | Description
+
+Test Case ID | TC_05
+
+Test Case Title | Verify order logout
+
+Module | Logout
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Logout
+
+Test Data | N/A
+
+Expected Result | User should be logged out
+
+Actual Result | User logged out successfully
+
+Status | Pass
+
+Remark | Logout working properly

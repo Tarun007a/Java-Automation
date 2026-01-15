@@ -1,0 +1,143 @@
+1) First Test Case
+
+Field | Description
+
+Test Case ID | TC_01
+
+Test Case Title | Verify CRM user login
+
+Module | Authentication
+
+Preconditions | User account exists in CRM
+
+Test Steps |
+
+Enter valid username and password
+
+Click on Login button
+
+Test Data | User – crm_admin
+
+Expected Result | User should be logged into CRM dashboard
+
+Actual Result | Dashboard displayed successfully
+
+Status | Pass
+
+Remark | Login functionality working properly
+
+2) Second Test Case
+
+Field | Description
+
+Test Case ID | TC_02
+
+Test Case Title | Verify add new customer
+
+Module | Customer Management
+
+Preconditions | User logged into CRM
+
+Test Steps |
+
+Click on Add Customer
+
+Enter customer details
+
+Click Save
+
+Test Data | Name – Rahul Sharma
+
+Expected Result | Customer record should be created
+
+Actual Result | Customer added successfully
+
+Status | Pass
+
+Remark | Customer creation successful
+
+3) Third Test Case
+
+Field | Description
+
+Test Case ID | TC_03
+
+Test Case Title | Verify update customer details
+
+Module | Customer Management
+
+Preconditions | Customer record exists
+
+Test Steps |
+
+Search customer
+
+Edit customer details
+
+Click Update
+
+Test Data | Phone – 9876543210
+
+Expected Result | Customer details should be updated
+
+Actual Result | Customer information updated
+
+Status | Pass
+
+Remark | Update functionality working
+
+4) Fourth Test Case
+
+Field | Description
+
+Test Case ID | TC_04
+
+Test Case Title | Verify delete customer
+
+Module | Customer Management
+
+Preconditions | Customer record available
+
+Test Steps |
+
+Select customer
+
+Click Delete
+
+Confirm action
+
+Test Data | Customer ID – C102
+
+Expected Result | Customer record should be removed
+
+Actual Result | Customer deleted successfully
+
+Status | Pass
+
+Remark | Delete operation working as expected
+
+5) Fifth Test Case
+
+Field | Description
+
+Test Case ID | TC_05
+
+Test Case Title | Verify logout from CRM
+
+Module | Logout
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Logout option
+
+Test Data | N/A
+
+Expected Result | User should be logged out
+
+Actual Result | User logged out successfully
+
+Status | Pass
+
+Remark | Logout functionality working

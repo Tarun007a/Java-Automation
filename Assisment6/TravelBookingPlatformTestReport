@@ -1,0 +1,143 @@
+1) First Test Case
+
+Field | Description
+
+Test Case ID | TC_01
+
+Test Case Title | Verify user login
+
+Module | Authentication
+
+Preconditions | User is registered on the platform
+
+Test Steps |
+
+Enter valid username and password
+
+Click on Login button
+
+Test Data | User – travel_user01
+
+Expected Result | User should be redirected to home page
+
+Actual Result | Home page displayed
+
+Status | Pass
+
+Remark | Login working as expected
+
+2) Second Test Case
+
+Field | Description
+
+Test Case ID | TC_02
+
+Test Case Title | Verify search for travel packages
+
+Module | Search
+
+Preconditions | User logged in
+
+Test Steps |
+
+Select source and destination
+
+Choose travel date
+
+Click Search
+
+Test Data | From – Delhi, To – Goa
+
+Expected Result | Available travel options should be displayed
+
+Actual Result | Travel options listed
+
+Status | Pass
+
+Remark | Search functionality working
+
+3) Third Test Case
+
+Field | Description
+
+Test Case ID | TC_03
+
+Test Case Title | Verify booking ticket
+
+Module | Booking
+
+Preconditions | Travel option selected
+
+Test Steps |
+
+Enter passenger details
+
+Select seat
+
+Click Book Now
+
+Test Data | Passenger – Aman Kumar
+
+Expected Result | Booking should be confirmed
+
+Actual Result | Ticket booked successfully
+
+Status | Pass
+
+Remark | Booking process successful
+
+4) Fourth Test Case
+
+Field | Description
+
+Test Case ID | TC_04
+
+Test Case Title | Verify payment failure handling
+
+Module | Payment
+
+Preconditions | Booking in progress
+
+Test Steps |
+
+Select payment method
+
+Enter invalid card details
+
+Click Pay
+
+Test Data | Card Number – Invalid
+
+Expected Result | Error message should be displayed
+
+Actual Result | Payment error shown
+
+Status | Pass
+
+Remark | Payment validation working
+
+5) Fifth Test Case
+
+Field | Description
+
+Test Case ID | TC_05
+
+Test Case Title | Verify logout
+
+Module | Logout
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Logout option
+
+Test Data | N/A
+
+Expected Result | User should be logged out of the system
+
+Actual Result | User logged out successfully
+
+Status | Pass
+
+Remark | Logout working correctly

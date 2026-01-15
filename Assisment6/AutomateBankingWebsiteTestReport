@@ -1,0 +1,135 @@
+1) First Test Case
+
+Field | Description
+
+Test Case ID | TC_01
+
+Test Case Title | Verify user login
+
+Module | Login
+
+Preconditions | User is registered with the bank
+
+Test Steps |
+
+Enter valid user ID and password
+
+Click Login button
+
+Test Data | User – bank_user01
+
+Expected Result | User should be logged into banking dashboard
+
+Actual Result | Dashboard displayed successfully
+
+Status | Pass
+
+Remark | Login functionality working
+
+2) Second Test Case
+
+Field | Description
+
+Test Case ID | TC_02
+
+Test Case Title | Verify balance enquiry
+
+Module | Account
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click on Balance Enquiry option
+
+Test Data | N/A
+
+Expected Result | Account balance should be displayed
+
+Actual Result | Balance displayed correctly
+
+Status | Pass
+
+Remark | Balance enquiry working
+
+3) Third Test Case
+
+Field | Description
+
+Test Case ID | TC_03
+
+Test Case Title | Verify fund transfer
+
+Module | Fund Transfer
+
+Preconditions | Beneficiary added
+
+Test Steps |
+
+Enter transfer amount
+
+Click Transfer button
+
+Test Data | Amount – ₹5,000
+
+Expected Result | Amount should be transferred successfully
+
+Actual Result | Fund transferred
+
+Status | Pass
+
+Remark | Fund transfer successful
+
+4) Fourth Test Case
+
+Field | Description
+
+Test Case ID | TC_04
+
+Test Case Title | Verify insufficient balance validation
+
+Module | Fund Transfer
+
+Preconditions | Account balance is low
+
+Test Steps |
+
+Enter transfer amount greater than balance
+
+Click Transfer
+
+Test Data | Amount – ₹75,000
+
+Expected Result | Error message should be shown
+
+Actual Result | Insufficient balance message displayed
+
+Status | Pass
+
+Remark | Validation working correctly
+
+5) Fifth Test Case
+
+Field | Description
+
+Test Case ID | TC_05
+
+Test Case Title | Verify logout
+
+Module | Logout
+
+Preconditions | User logged in
+
+Test Steps |
+
+Click Logout option
+
+Test Data | N/A
+
+Expected Result | User should be logged out
+
+Actual Result | User logged out successfully
+
+Status | Pass
+
+Remark | Logout working properly
